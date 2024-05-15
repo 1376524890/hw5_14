@@ -1,15 +1,54 @@
-//TIP 要<b>运行</b>代码，请按 <shortcut actionId="Run"/> 或
-// 点击间距中的 <icon src="AllIcons.Actions.Execute"/> 图标。
+import java.util.Scanner;
+class Time {
+    java.util.Date date =new java.util.Date();
+    private long elapseTime;
+    private long hour;
+    private long minute;
+    private double second;
+
+    public Time(){
+        this.elapseTime = date.getTime();
+        this.hour = elapseTime/3600000;
+        this.minute = (elapseTime%3600000)/60000;
+        this.second =  (elapseTime % 60000)/1000.0;
+    }
+
+    public long getHour() {
+        return hour;
+    }
+
+    public long getMinute() {
+        return minute;
+    }
+
+    public double getSecond() {
+        return second;
+    }
+
+    public Time(long elapseTime){
+        setTime(elapseTime);
+    }
+
+    public void setTime(long elapseTime){
+        this.hour = elapseTime/3600000;
+        this.minute = (elapseTime%3600000)/60000;
+        this.second =  (elapseTime % 60000)/1000.0;
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
-        //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
-        // 查看 IntelliJ IDEA 建议如何修复。
-        System.out.printf("Hello and welcome!");
+        Scanner scan = new Scanner(System.in);
+        Time time1 = new Time();
+        Time time2 = new Time(555550000);
+        System.out.println("Hour: " + time1.getHour());
+        System.out.println("Minute: " + time1.getMinute());
+        System.out.println("Second: " + time1.getSecond());
+        System.out.println("请输入一个毫秒数");
+        time2.setTime(scan.nextLong());
+        System.out.println("Hour: " + time2.getHour());
+        System.out.println("Minute: " + time2.getMinute());
+        System.out.println("Second: " + time2.getSecond());
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP 按 <shortcut actionId="Debug"/> 开始调试代码。我们已经设置了一个 <icon src="AllIcons.Debugger.Db_set_breakpoint"/> 断点
-            // 但您始终可以通过按 <shortcut actionId="ToggleLineBreakpoint"/> 添加更多断点。
-            System.out.println("i = " + i);
-        }
     }
 }
