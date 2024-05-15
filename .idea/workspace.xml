@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12cf3607-1c48-4951-985a-a39448ada5bc" name="更改" comment="10.7 ATM机完成">
-      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="12cf3607-1c48-4951-985a-a39448ada5bc" name="更改" comment="10.14机完成">
+      <change afterPath="$PROJECT_DIR$/src/FindInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2gRKpjkr10l6SwqiZ72sPbW6ggc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,8 +41,10 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Java_learn/hw5_14/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "应用程序.ATM.executor": "Run",
     "应用程序.Circle.executor": "Run",
+    "应用程序.FindInteger.executor": "Run",
     "应用程序.Main.executor": "Run"
   }
 }]]></component>
@@ -70,12 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715786881837</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="10.14机完成">
+      <option name="closed" value="true" />
+      <created>1715787498483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715787498483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10.1完成" />
     <MESSAGE value="10.7 ATM机完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.7 ATM机完成" />
+    <MESSAGE value="10.14机完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.14机完成" />
   </component>
 </project>
